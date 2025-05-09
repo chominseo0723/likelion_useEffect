@@ -14,7 +14,7 @@ const NameInput = () => {
         <div>
             <h2 className={headingStyle}>이름을 입력하세요</h2>
             <input className={inputStyle} type="text" onChange={handleChange}/>
-            <p className={greetingStyle}>안녕하세요, <span className={nameStyle}>{name}</span></p>
+            <p className={greetingStyle}>안녕하세요, <span className={nameStyle}>{name}</span>님</p>
         </div>
     )
 }
